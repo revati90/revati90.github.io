@@ -1,58 +1,83 @@
+body{
+  font-family: 'Jura', sans-serif;
+  line-height: 1.3em;
+  letter-spacing: 2px;
+}
 .panel{
-  width:800px;
+  width:900px;
   margin: 40px auto;
   border: 1px solid #000;
   height:auto;
   overflow:auto;
 }
-body{
-  font-family: 'Jura', sans-serif;
-}
 img {
   border-radius: 50%;
-  padding: 10px 25px;
+}
+#img {
+  padding: 40px 0;
+  margin: 0 50px;
 }
 .left {
   float:left;
-  padding: 10px;
-  background-color:#ffffff;
-  width:35%;
+  width:38%;
+  padding: 25px 0;
 }
 .right {
   float:right;
-  padding: 10px;
-  background-color:#6CCDC7;
+  background-color:#79C6C8;
   width:60%;
+  padding: 25px 0;
+
 }
 .left-inner {
   padding: 10px 5px;
-  /*border: 1px solid; */
 }
-.name {
-  font-size: 36px;
-  font-weight: bold;
-  line-height: 1.2em;
+#name {
+  font-size: 55px;
   letter-spacing: 5px;
   word-wrap: break-word;
-  color: #6CCDC7;
-  padding:5px 0;
+  color: #79C6C8;
+  line-height: normal;
+  padding-left: 0;
+  text-transform: uppercase;
 }
-.position-name {
-  font-size: 15px;
+#position-name {
+  font-size: 18px;
   line-height: 1.2em;
   letter-spacing: 2px;
-  padding: 5px 0;
+  padding-left: 0;
+  padding-bottom: 70px;
+
 }
-.left-div {
+.content-left {
   font-weight: bold;
-  padding:5px 0;
+  margin: 0 25px;
+  padding:10px 10px;
   font-size: 18px;
-  background-color: #6CCDC7;
+  background-color: #79C6C8;
 }
-.right-div {
-  font-weight: bold;
-  padding:5px 0;
-  font-size: 18px;
+.content-right {
   background-color: #ffffff;
-  color: #6CCDC7;
+}
+.trans {
+  background-color:transparent;
+  padding-bottom: 25px;
+}
+#p {
+  font-size: 15px;
+  font-weight: normal;
+  letter-spacing: 1px;
+}
+.num {
+  font-size: 13px;
+  padding: 10px 0 25px 0;
+  line-height: 1em;
+}
+.txt {
+  font-size: 18px;
+  font-weight: normal;
+  padding-bottom: 5px;
+}
+ul li{
+font-size:15px;
 }
