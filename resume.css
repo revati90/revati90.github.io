@@ -10,7 +10,7 @@ body{
   height:auto;
   overflow:auto;
 }
-img {
+.image-class {
   border-radius: 50%;
 }
 #img {
